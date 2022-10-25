@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Nunito;
+    font-family: 'Gandhi Sans';
     src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
 }
 
@@ -25,9 +25,10 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #000016;
-    color: #fceaff;
-    background-image: url('wallpaper7.jpg');
+    color: #75E6DA;
+    background-image: url('/images/wallpaper7.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 * {
@@ -36,7 +37,7 @@ body {
 
 #container {
     max-width: 1000px;
-    margin: -20px auto
+    margin: 30px auto
 }
 
 #container a {
@@ -49,12 +50,10 @@ body {
     text-decoration: underline;
 }
 
-#header {
+#header img {
+    margin-bottom: -6px;
+    height: auto;
     width: 100%;
-    background-color: #5e4e8c;
-    height: 150px;
-    background-image: url('wallpaper7.jpg');
-    background-size: contain;
 }
 
 #navbar {
@@ -107,14 +106,11 @@ footer {
 
 h1,
 h2,
-h3 {
+h3,
+strong {
     color: #75E6DA;
 }
 
 h1 {
     font-size: 25px;
-}
-
-strong {
-    color: #75E6DA;
 }
