@@ -77,7 +77,6 @@ body {
 
 #navbar li a {
     color: #75E6DA;
-    font-weight: 800;
     text-decoration: none;
 }
 
@@ -88,7 +87,6 @@ body {
 
 #flex {
     display: flex;
-    align-items: flex-start;
     flex-wrap: no-wrap;
     background-color: #050A30;
     color: #189AB4; 
@@ -107,11 +105,7 @@ body {
 }
 
 #content {
-    height: auto;
-    max-width: auto;
-    padding: 15px;
     margin: 15px;
-    background-color: aliceblue;
 }
 
 footer {
@@ -130,12 +124,15 @@ strong {
     color: #75E6DA;
 }
 
-h1 {
-    font-size: 25px;
+p {
+    color: #dfdfdf;
+    text-indent: 30px;
+    text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     #flex {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
