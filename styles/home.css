@@ -1,0 +1,23 @@
+#flex {
+    display: flex;
+    flex-wrap: no-wrap;
+    background-color: #050A30;
+    color: #189AB4; 
+    padding: 15px;
+}
+
+#icon {
+    height: auto;
+    max-width: 352px;
+    margin: 15px;
+}
+
+#icon img {
+    height: auto;
+    width: 100%;
+}
+
+#content {
+    margin: 15px;
+}
+
