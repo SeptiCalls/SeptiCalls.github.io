@@ -47,6 +47,7 @@ body {
 }
 
 #container a:hover {
+    color: #D4F1F4;
     text-decoration: underline;
 }
 
@@ -93,6 +94,10 @@ main {
     background-color: #050A30;
     color: #189AB4; 
     padding: 30px;
+}
+
+#icon img {
+    width: 38.2%;
 }
 
 footer {
