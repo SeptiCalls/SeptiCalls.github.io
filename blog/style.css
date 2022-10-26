@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('https://septicalls.me/fonts/GandhiSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('https://septicalls.me/fonts/GandhiSans-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('https://septicalls.me/fonts/GandhiSans-Italic.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('https://septicalls.me/fonts/GandhiSans-BoldItalic.otf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Gandhi Sans', sans-serif;
+    background-color: #000016;
+    color: #75E6DA;
+    background-image: url('https://septicalls.me/images/cover.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 30px auto
+}
+
+#container a {
+    color: #75E6DA;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#container a:hover {
+    color: #D4F1F4;
+    text-decoration: underline;
+}
+
+#header img {
+    margin-bottom: -6px;
+    height: auto;
+    width: 100%;
+}
+
+#navbar {
+    height: 40px;
+    background-color: #000016;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+#navbar li a {
+    color: #75E6DA;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: #D4F1F4;
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: no-wrap;
+    width: 1000px;
+    height: 352px;
+    background-color: #050A30;
+    color: #189AB4; 
+    padding: 15px;
+}
+
+footer {
+    background-color: #000016;
+    color: #75E6DA;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: #75E6DA;
+}
+
+p {
+    color: #dfdfdf;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+    #flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
