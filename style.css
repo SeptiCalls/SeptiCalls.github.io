@@ -88,16 +88,30 @@ body {
 
 #flex {
     display: flex;
-}
-
-main {
+    align-items: flex-start;
+    flex-wrap: no-wrap;
     background-color: #050A30;
     color: #189AB4; 
-    padding: 30px;
+    padding: 15px;
+}
+
+#icon {
+    height: auto;
+    max-width: 352px;
+    margin: 15px;
 }
 
 #icon img {
-    width: 38.2%;
+    height: auto;
+    width: 100%;
+}
+
+#content {
+    height: auto;
+    max-width: auto;
+    padding: 15px;
+    margin: 15px;
+    background-color: aliceblue;
 }
 
 footer {
@@ -118,4 +132,10 @@ strong {
 
 h1 {
     font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    #flex {
+        flex-wrap: wrap;
+    }
 }
