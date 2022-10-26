@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('https://septicalls.me/fonts/GandhiSans-Regular.otf');
+    src: url('../fonts/GandhiSans-Regular.otf');
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('https://septicalls.me/fonts/GandhiSans-Bold.otf');
+    src: url('../fonts/GandhiSans-Bold.otf');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('https://septicalls.me/fonts/GandhiSans-Italic.otf');
+    src: url('../fonts/GandhiSans-Italic.otf');
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('https://septicalls.me/fonts/GandhiSans-BoldItalic.otf');
+    src: url('../fonts/GandhiSans-BoldItalic.otf');
     font-style: italic;
     font-weight: bold;
 }
@@ -26,7 +26,7 @@ body {
     font-family: 'Gandhi Sans', sans-serif;
     background-color: #000016;
     color: #75E6DA;
-    background-image: url('https://septicalls.me/images/cover.webp');
+    background-image: url('../images/cover.webp');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -83,16 +83,6 @@ body {
 #navbar li a:hover {
     color: #D4F1F4;
     text-decoration: underline;
-}
-
-#flex {
-    display: flex;
-    flex-wrap: no-wrap;
-    width: 1000px;
-    height: 352px;
-    background-color: #050A30;
-    color: #189AB4; 
-    padding: 15px;
 }
 
 footer {
