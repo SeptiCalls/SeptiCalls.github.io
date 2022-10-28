@@ -1,17 +1,17 @@
 #flex {
-    display: flex;
+    display: block;
     flex-wrap: no-wrap;
-    height: 352px;
-    justify-content: center;
+    padding: 15px;
     background-color: #050A30;
     color: #189AB4; 
+}
+
+h2{
+
+    text-align: center;
+}
+
+p {
     padding: 15px;
-}
-
-#sidebar {
-    background-color: #050A30;
-}
-
-#blog {
-    background-color: #189AB4;
+    font-size: large;
 }

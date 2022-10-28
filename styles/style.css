@@ -107,7 +107,7 @@ p {
     text-align: justify;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #flex {
         flex-wrap: wrap;
         justify-content: center;
