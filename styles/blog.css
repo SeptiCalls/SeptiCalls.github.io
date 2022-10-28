@@ -1,0 +1,17 @@
+#flex {
+    display: flex;
+    flex-wrap: no-wrap;
+    height: 352px;
+    justify-content: center;
+    background-color: #050A30;
+    color: #189AB4; 
+    padding: 15px;
+}
+
+#sidebar {
+    background-color: #050A30;
+}
+
+#blog {
+    background-color: #189AB4;
+}
