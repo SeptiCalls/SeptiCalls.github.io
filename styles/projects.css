@@ -1,0 +1,50 @@
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #050A30;
+    color: #189AB4; 
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    border: 3px solid #189AB4;
+    margin: 15px;
+    padding-right: 15px;
+}
+
+.box-icon {
+    padding: 15px;
+}
+
+.box-icon img {
+    width: auto;
+    height: 200px;
+}
+
+h1:hover {
+    color: #D4F1F4;
+}
+
+@media screen and (max-width: 900px) {
+    .box {
+        flex-wrap: wrap;
+        padding: 15px;
+    } 
+
+    .box img {
+        width: 100%;
+        height: auto;
+        order: 1;
+    }
+
+    .box-icon {
+        padding: 0;
+    }
+
+    .box-content {
+        order: 2;
+    }
+}
+

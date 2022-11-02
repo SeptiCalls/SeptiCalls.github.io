@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
 
-/* html {
-  max-width: 100%;
-} */
 body {
   background-color: #050A30;
   font-family: "Source Code Pro", monospace;
@@ -53,9 +50,6 @@ h3 {
   display: flex;
 }
 
-/* h3:hover {
-  font-weight: 900;
-} */
 a:hover {
   color: #00B6BC;
   transform: scale(2);
