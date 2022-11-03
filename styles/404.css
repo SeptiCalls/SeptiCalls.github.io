@@ -10,3 +10,14 @@
     margin-bottom: -50px;
     font-size: 320px;
 }
+
+@media screen and (max-width: 900px){
+    #text-404 {
+        font-size: 100px;
+        margin-bottom: -30px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
