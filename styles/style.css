@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('../fonts/GandhiSans-Regular.otf');
+    src: url('/fonts/GandhiSans-Regular.otf');
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('../fonts/GandhiSans-Bold.otf');
+    src: url('/fonts/GandhiSans-Bold.otf');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('../fonts/GandhiSans-Italic.otf');
+    src: url('/fonts/GandhiSans-Italic.otf');
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gandhi Sans';
-    src: url('../fonts/GandhiSans-BoldItalic.otf');
+    src: url('/fonts/GandhiSans-BoldItalic.otf');
     font-style: italic;
     font-weight: bold;
 }
@@ -26,7 +26,7 @@ body {
     font-family: 'Gandhi Sans', sans-serif;
     background-color: #000016;
     color: #75E6DA;
-    background-image: url('../images/cover.webp');
+    background-image: url('/images/cover.webp');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -94,10 +94,7 @@ footer {
     text-align: center;
 }
 
-h1,
-h2,
-h3,
-strong {
+h1, h2, h3, strong {
     color: #75E6DA;
 }
 

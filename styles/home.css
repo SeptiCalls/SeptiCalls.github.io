@@ -19,7 +19,11 @@
 }
 
 #content {
+    display: inline-block;
+    padding: 15px;
     order: 2;
-    margin: 15px;
 }
 
+#content h1{
+    line-height: 35px;
+}
