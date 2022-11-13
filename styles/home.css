@@ -19,9 +19,9 @@
 }
 
 #content {
+    order: 2;
     display: inline-block;
     padding: 15px;
-    order: 2;
 }
 
 #content h1{

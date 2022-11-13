@@ -28,6 +28,7 @@ body {
     color: #75E6DA;
     background-image: url('/images/cover.webp');
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
