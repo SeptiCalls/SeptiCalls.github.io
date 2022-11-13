@@ -28,6 +28,7 @@ body {
     color: #75E6DA;
     background-image: url('/images/cover.webp');
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -37,7 +38,7 @@ body {
 
 #container {
     max-width: 1000px;
-    margin: 30px auto
+    margin: 30px auto;
 }
 
 #container a {
