@@ -16,11 +16,16 @@
 
 .box-icon {
     padding: 15px;
+    min-width: 386px;
 }
 
 .box-icon img {
     width: auto;
     height: 200px;
+}
+
+.box-content {
+    max-width: 564px;
 }
 
 h1:hover {
@@ -41,6 +46,7 @@ h1:hover {
 
     .box-icon {
         padding: 0;
+        min-width: none;
     }
 
     .box-content {
