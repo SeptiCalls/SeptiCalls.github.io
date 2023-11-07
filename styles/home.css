@@ -1,8 +1,8 @@
 #flex {
     display: flex;
     flex-wrap: no-wrap;
-    background-color: #050A30;
-    color: #189AB4; 
+    background-color: #001d3d;
+    color: #189AB4;
     padding: 15px;
 }
 
