@@ -105,6 +105,11 @@ p {
     text-align: justify;
 }
 
+strong {
+    color: #bde0fe;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 900px) {
     #flex {
         flex-wrap: wrap;
