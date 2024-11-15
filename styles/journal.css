@@ -1,0 +1,8 @@
+#flex {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+    background-color: #001d3d;
+    color: #dfdfdf;
+    padding: 15px 30px;
+}

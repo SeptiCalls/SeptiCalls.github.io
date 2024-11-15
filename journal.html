@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="og:title" content="septicalls">
+    <meta name="og:description"
+        content="Hi there, I am septicalls of the Cyberspace. Visit my humble abode to learn more.">
+    <meta name="description"
+        content="Hi there, I am septicalls of the Cyberspace. Visit my humble abode to learn more.">
+    <meta name="og:image" content="/images/thumbnail.webp">
+    <meta name="og:url" content="https://septicalls.github.io/">
+    <meta property="twitter:card" content="summary_large_image">
+    <link href="/images/icon.webp" rel="icon" type="image/x-icon">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/journal.css" type="text/css">
+
+    <!-- Visit Counter -->
+    <script data-goatcounter="https://septicalls.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Title -->
+    <title>septicalls</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="/images/header.webp" alt="Header Image">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://github.com/septicalls" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/vyasa-m-nayak" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="flex">
+            <h1>Nvidia, Arch Linux, and Sleep</h1>
+            <p> Having used Pop OS for almost two years, I decided I wanted to try out Arch Linux: because easy installs
+                are for the weak. I installed Arch in late August following <a
+                    href="https://gist.github.com/mjkstra/96ce7a5689d753e7a6bdd92cdc169bae">mjkstra's</a> guide (using
+                snapper instead of timeshift). It all worked great, until I could no longer get my
+                laptop to suspend. When I closed the lid, Linux would simply crash with the following error:
+            </p>
+            <code>
+                Aug 26 17:15:16 legion systemd[1]: systemd-suspend.service: Main process exited, code=exited, status=1/FAILURE<br>
+                Aug 26 17:15:16 legion systemd[1]: systemd-suspend.service: Failed with result 'exit-code'.<br>
+                Aug 26 17:15:16 legion systemd[1]: Failed to start System Suspend.
+            </code>
+            <p>
+                Alas, setting up Nvidia drivers on Linux is not as easy as Pop OS makes it seem.
+                It took me scouring the internet for a week to find <a
+                    href="https://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg1974773.html">this bug
+                    report</a> and fix it.
+            </p>
+            <h2>Programming Books I've Read</h2>
+            <ul>
+                <li>Crafting Interpreters <i>by Robert Nystrom.</i></li>
+                <li>Let's Go <i>by Alex Edwards.</i></li>
+                <li>The Linux Programming Interface <i>by Michael Kerrisk</i> (reading)</li>
+            </ul>
+            <i>Last updated on 15 November, 2024.</i>
+        </div>
+        <footer id="footer">I use <a href="https://archlinux.org/" target="_blank">Arch</a>, BTW.</footer>
+    </div>
+</body>
+
+</html>
