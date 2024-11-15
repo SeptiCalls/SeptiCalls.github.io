@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: no-wrap;
     background-color: #001d3d;
-    color: #189AB4;
+    color: #dfdfdf;
     padding: 15px;
 }
 
@@ -24,4 +24,12 @@
 
 #content h1{
     line-height: 35px;
+}
+
+@media screen and (max-width: 936px) {
+    #icon img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
 }
