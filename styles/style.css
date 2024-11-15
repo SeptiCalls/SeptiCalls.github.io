@@ -25,7 +25,7 @@
 body {
     font-family: 'Gandhi Sans', sans-serif;
     background-color: #000016;
-    color: #75E6DA;
+    color: #dfdfdf;
     background-image: url('/images/cover.webp');
     background-size: cover;
     background-position: center;
@@ -86,6 +86,10 @@ body {
     text-decoration: underline;
 }
 
+#flex li {
+    color: #dfdfdf;
+}
+
 footer {
     background-color: #000016;
     color: #75E6DA;
@@ -95,8 +99,9 @@ footer {
     text-align: center;
 }
 
-h1, h2, h3, strong {
-    color: #75E6DA;
+h1, h2, h3 {
+    color: #dfdfdf;
+    font-weight: normal;
 }
 
 p {
@@ -106,7 +111,7 @@ p {
 }
 
 strong {
-    color: #bde0fe;
+    color: #80ffdb;
     font-weight: bold;
 }
 
